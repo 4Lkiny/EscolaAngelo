@@ -1,0 +1,24 @@
+#criando a coleção de palavras
+palavras = ["Brasil", "argentina", "inglaterra", "australia", "canadá", "china"]
+
+#Escolhendo uma palavra
+from random import randint
+indice = randint(0, len(palavras) -1)
+palavraselecionada = palavras[indice]
+print(palavraselecionada)
+
+letraescolhida = input("escolha uma letra para adivinhar: ")
+if letraescolhida in palavraselecionada:
+  print("Acertou")
+
+else:
+  print("Errou")
+
+#jogada
+tentativas = []
+
+while True:
+  letraescolhida = input("Escolha uma letra para adivinhar: ")
+  for indice, letra in enumerate(palavraselecionada):
+    print(indice, letra)
+  break
