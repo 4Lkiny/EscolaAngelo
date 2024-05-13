@@ -17,3 +17,4 @@
 8 Ainda no terminal digite: git config user.email <digite aqui seu Github>
 
 9 tecle ENTER
+#
