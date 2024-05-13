@@ -1,3 +1,5 @@
+OK - PARISOOTTO
+
 # Como CLONAR um repositorio do GOTHUB como visual code
 
 1 No GOTHUB abre o repositório e clique no botão CODE -> Local -> copiar LINK do repositótio 
